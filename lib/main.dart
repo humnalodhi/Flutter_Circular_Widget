@@ -25,6 +25,21 @@ class MyApp extends StatelessWidget {
                 backgroundImage: AssetImage('lib/assets/women_profile.jpg'),
               ),
             ),
+            SizedBox(
+                height: 100
+            ),
+            Divider(
+              color: Colors.black, thickness: 0.5,
+            ),
+            SizedBox(
+              height: 100,
+              child: VerticalDivider(
+                color: Colors.black,
+              ),
+            ),
+            Divider(
+              color: Colors.black, thickness: 0.5,
+            ),
           ],
         ),
       ),
